@@ -1,0 +1,9 @@
+# BlueBird Audio Classifier Dependencies
+numpy>=1.23.0
+scipy>=1.10.0
+soundfile>=0.12.0
+ai-edge-litert>=2.3.0  # Modern standalone TensorFlow Lite runtime for Python 3.10-3.12
+# Note: For older Python versions (<=3.11), you can also use:
+# tflite-runtime>=2.14.0
+# Or full TensorFlow (for retraining & quantization):
+# tensorflow>=2.15.0

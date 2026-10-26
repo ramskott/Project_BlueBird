@@ -1,0 +1,38 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pico / CMake build artifacts
+pico/build/
+pico/pico_sdk_import.cmake
+*.uf2
+*.elf
+*.bin
+*.hex
+
+# Credentials and secrets
+*.env
+*.env.*
+*.key
+*.pem
+secrets.json
+credentials.json
